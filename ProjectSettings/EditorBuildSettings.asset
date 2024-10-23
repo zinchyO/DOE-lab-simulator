@@ -14,6 +14,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/CleanRoomScene.unity
     guid: 159baa6818f77c04c811b3db82ffac1c
+  - enabled: 1
+    path: Assets/Scenes/BadgingScene.unity
+    guid: c504220a1d483dd4d963f33612850950
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: bfa1182bd221b4ca89619141f66f1260, type: 2}
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: dc5a169419fa04987b057f65238cf3ba, type: 2}
