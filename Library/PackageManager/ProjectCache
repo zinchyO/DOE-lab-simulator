@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638637304960891215
-    m_Hash: 2731993088
+      ticks: 638654925607971691
+    m_Hash: 1969485125
   m_LockFileStatus:
     m_FilePath: E:/Unity Projects/DOE-lab-simulator/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638637304961217782
-    m_Hash: 1988234956
+      ticks: 638654925644701165
+    m_Hash: 1202038739
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -422,10 +422,12 @@ m_ResolvedPackages:
     - 1.10.0
     - 1.11.0
     - 1.11.1
+    - 1.11.2
     compatible:
     - 1.11.0
     - 1.11.1
-    recommended: 1.11.1
+    - 1.11.2
+    recommended: 1.11.2
     deprecated: []
   dependencies:
   - name: com.unity.modules.uielements
@@ -1205,6 +1207,126 @@ m_ResolvedPackages:
   isDeprecated: 0
   deprecationMessage: 
   fingerprint: 
+- packageId: com.unity.xr.hands@1.4.0
+  testable: 0
+  isDirectDependency: 1
+  version: 1.4.0
+  source: 1
+  resolvedPath: E:\Unity Projects\DOE-lab-simulator\Library\PackageCache\com.unity.xr.hands@1.4.0
+  assetPath: Packages/com.unity.xr.hands
+  name: com.unity.xr.hands
+  displayName: XR Hands
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: assets
+  description: Surfaces the cross-platform subsystem API for hand-tracking. Implementations
+    of providers will be found in the package for that platform.
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 1.0.0-pre.2
+    - 1.1.0-pre.2
+    - 1.1.0-pre.3
+    - 1.1.0
+    - 1.2.0
+    - 1.2.1
+    - 1.3.0
+    - 1.4.0-pre.1
+    - 1.4.0
+    - 1.4.1
+    - 1.4.3
+    - 1.5.0-pre.1
+    - 1.5.0-pre.3
+    - 1.5.0-pre.4
+    - 1.5.0
+    compatible:
+    - 1.4.0
+    - 1.4.1
+    - 1.4.3
+    - 1.5.0-pre.1
+    - 1.5.0-pre.3
+    - 1.5.0-pre.4
+    - 1.5.0
+    recommended: 1.4.3
+    deprecated: []
+  dependencies:
+  - name: com.unity.modules.xr
+    version: 1.0.0
+  - name: com.unity.inputsystem
+    version: 1.3.0
+  - name: com.unity.mathematics
+    version: 1.2.6
+  - name: com.unity.xr.core-utils
+    version: 2.2.0
+  - name: com.unity.xr.management
+    version: 4.0.1
+  resolvedDependencies:
+  - name: com.unity.modules.xr
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.modules.subsystems
+    version: 1.0.0
+  - name: com.unity.inputsystem
+    version: 1.11.0
+  - name: com.unity.modules.uielements
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.mathematics
+    version: 1.2.6
+  - name: com.unity.xr.core-utils
+    version: 2.3.0
+  - name: com.unity.xr.management
+    version: 4.4.0
+  - name: com.unity.modules.vr
+    version: 1.0.0
+  - name: com.unity.xr.legacyinputhelpers
+    version: 2.1.11
+  keywords:
+  - xr
+  - vr
+  - virtual
+  - reality
+  - hand
+  - tracking
+  - hands
+  - subsystem
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638448203660000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.xr.hands@1.4/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.xr.hands.git
+    revision: fe5bc832bb00abf0d2351243f0d628d63ed9f045
+    path: 
+  unityLifecycle:
+    version: 1.4.0
+    nextVersion: 1.5.0-pre.1
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  fingerprint: 
 - packageId: com.unity.xr.interaction.toolkit@3.0.3
   testable: 0
   isDirectDependency: 1
@@ -1277,6 +1399,7 @@ m_ResolvedPackages:
     - 3.0.3
     - 3.0.4
     - 3.0.5
+    - 3.0.6
     compatible:
     - 2.6.3
     - 3.0.0-pre.1
@@ -1286,6 +1409,7 @@ m_ResolvedPackages:
     - 3.0.3
     - 3.0.4
     - 3.0.5
+    - 3.0.6
     recommended: 2.6.3
     deprecated: []
   dependencies:
@@ -4770,8 +4894,10 @@ m_ResolvedPackages:
     - 4.2.0
     - 4.3.0-pre.1
     - 4.3.0
+    - 4.4.0
     compatible:
     - 4.3.0
+    - 4.4.0
     recommended: 4.3.0
     deprecated: []
   dependencies:
@@ -4982,9 +5108,11 @@ m_ResolvedPackages:
     - 3.0.27
     - 3.0.28
     - 3.0.31
+    - 3.0.34
     compatible:
     - 3.0.31
-    recommended: 3.0.31
+    - 3.0.34
+    recommended: 3.0.34
     deprecated: []
   dependencies:
   - name: com.unity.ext.nunit
