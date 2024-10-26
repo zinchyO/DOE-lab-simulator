@@ -411,6 +411,7 @@
 "Assets/Imports/VR Keyboard XRI/Scripts/KeyboardManager.cs"
 "Assets/Imports/VR Keyboard XRI/Scripts/KeyChannel.cs"
 "Assets/Imports/VR Keyboard XRI/Scripts/LetterKey.cs"
+"Assets/Scripts/BadgingSystem.cs"
 "Assets/Scripts/SceneChanges.cs"
 "Assets/VRTemplateAssets/Scripts/AnchorVisuals.cs"
 "Assets/VRTemplateAssets/Scripts/BezierCurve.cs"
