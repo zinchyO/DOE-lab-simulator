@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638654925607971691
-    m_Hash: 1969485125
+      ticks: 638685017522340666
+    m_Hash: 1491685993
   m_LockFileStatus:
     m_FilePath: E:/Unity Projects/DOE-lab-simulator/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638654925644701165
-    m_Hash: 1202038739
+      ticks: 638685017522355711
+    m_Hash: 33099440
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -119,9 +119,11 @@ m_ResolvedPackages:
     - 2.4.4
     - 2.5.1
     - 2.5.2
+    - 2.6.0
     compatible:
     - 2.5.1
     - 2.5.2
+    - 2.6.0
     recommended: 2.5.2
     deprecated: []
   dependencies: []
@@ -1687,10 +1689,12 @@ m_ResolvedPackages:
     - 1.12.1
     - 1.13.0
     - 1.13.1
+    - 1.13.2
     compatible:
     - 1.12.1
     - 1.13.0
     - 1.13.1
+    - 1.13.2
     recommended: 1.12.1
     deprecated: []
   dependencies:
@@ -3740,11 +3744,13 @@ m_ResolvedPackages:
     - 2.4.0-exp.1
     - 2.4.0-exp.2
     - 2.4.0-exp.3
+    - 2.4.0
     compatible:
     - 2.3.0
     - 2.4.0-exp.1
     - 2.4.0-exp.2
     - 2.4.0-exp.3
+    - 2.4.0
     recommended: 2.3.0
     deprecated: []
   dependencies:
