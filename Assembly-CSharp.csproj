@@ -106,7 +106,6 @@
     <Compile Include="Assets\Hospital Laboratory\PostProcessing\Runtime\PostProcessingBehaviour.cs" />
     <Compile Include="Assets\Hospital Laboratory\PostProcessing\Runtime\Models\DitheringModel.cs" />
     <Compile Include="Assets\Hospital Laboratory\PostProcessing\Utilities\CustomMotionTexture\ExampleWheelController.cs" />
-    <Compile Include="Assets\Scripts\BadgingSystem.cs" />
     <Compile Include="Assets\Hospital Laboratory\PostProcessing\Runtime\PostProcessingContext.cs" />
     <Compile Include="Assets\Hospital Laboratory\PostProcessing\Runtime\Components\TaaComponent.cs" />
     <Compile Include="Assets\Hospital Laboratory\PostProcessing\Runtime\Components\UserLutComponent.cs" />
