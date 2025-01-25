@@ -60,136 +60,136 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.49f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Hospital Laboratory\PostProcessing\Runtime\Components\MotionBlurComponent.cs" />
-    <Compile Include="Assets\Hospital Laboratory\PostProcessing\Runtime\Attributes\TrackballGroupAttribute.cs" />
+    <Compile Include="Assets\Prefabs\Hospital Laboratory\PostProcessing\Runtime\Models\ColorGradingModel.cs" />
+    <Compile Include="Assets\Prefabs\Hospital Laboratory\PostProcessing\Runtime\Models\AmbientOcclusionModel.cs" />
+    <Compile Include="Assets\Prefabs\Hospital Laboratory\PostProcessing\Runtime\Models\VignetteModel.cs" />
+    <Compile Include="Assets\Prefabs\Hospital Laboratory\PostProcessing\Runtime\Components\UserLutComponent.cs" />
+    <Compile Include="Assets\Prefabs\Hospital Laboratory\PostProcessing\Runtime\PostProcessingComponent.cs" />
+    <Compile Include="Assets\Prefabs\Hospital Laboratory\PostProcessing\Runtime\Models\ScreenSpaceReflectionModel.cs" />
+    <Compile Include="Assets\Prefabs\Hospital Laboratory\PostProcessing\Runtime\Attributes\GetSetAttribute.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\DestroyObject.cs" />
+    <Compile Include="Assets\Prefabs\Hospital Laboratory\PostProcessing\Runtime\Models\BloomModel.cs" />
+    <Compile Include="Assets\Prefabs\Hospital Laboratory\PostProcessing\Utilities\CustomMotionTexture\ExampleWheelController.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\VideoTimeScrubControl.cs" />
-    <Compile Include="Assets\Hospital Laboratory\PostProcessing\Runtime\Models\UserLutModel.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\VideoPlayerRenderTexture.cs" />
-    <Compile Include="Assets\Hospital Laboratory\PostProcessing\Runtime\Models\VignetteModel.cs" />
-    <Compile Include="Assets\Hospital Laboratory\PostProcessing\Runtime\Models\ColorGradingModel.cs" />
-    <Compile Include="Assets\Hospital Laboratory\PostProcessing\Runtime\Models\AmbientOcclusionModel.cs" />
+    <Compile Include="Assets\Prefabs\Hospital Laboratory\PostProcessing\Runtime\Components\FogComponent.cs" />
+    <Compile Include="Assets\Prefabs\Hospital Laboratory\PostProcessing\Runtime\Models\DepthOfFieldModel.cs" />
+    <Compile Include="Assets\Prefabs\Hospital Laboratory\PostProcessing\Runtime\PostProcessingProfile.cs" />
+    <Compile Include="Assets\Prefabs\Hospital Laboratory\PostProcessing\Runtime\Attributes\TrackballGroupAttribute.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\Rotator.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\XRKnob.cs" />
-    <Compile Include="Assets\Hospital Laboratory\PostProcessing\Runtime\Attributes\MinAttribute.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\BooleanToggleVisualsController.cs" />
-    <Compile Include="Assets\Hospital Laboratory\PostProcessing\Runtime\Utils\MaterialFactory.cs" />
-    <Compile Include="Assets\Hospital Laboratory\PostProcessing\Runtime\Models\GrainModel.cs" />
+    <Compile Include="Assets\Prefabs\Hospital Laboratory\PostProcessing\Runtime\Components\VignetteComponent.cs" />
+    <Compile Include="Assets\Prefabs\Hospital Laboratory\PostProcessing\Runtime\Models\BuiltinDebugViewsModel.cs" />
     <Compile Include="Assets\Imports\VR Keyboard XRI\Scripts\KeyChannel.cs" />
-    <Compile Include="Assets\Hospital Laboratory\PostProcessing\Runtime\Models\FogModel.cs" />
+    <Compile Include="Assets\Prefabs\Hospital Laboratory\PostProcessing\Runtime\Components\EyeAdaptationComponent.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\RayAttachModifier.cs" />
+    <Compile Include="Assets\Prefabs\Hospital Laboratory\PostProcessing\Runtime\Models\ChromaticAberrationModel.cs" />
     <Compile Include="Assets\Imports\VR Keyboard XRI\Scripts\LetterKey.cs" />
-    <Compile Include="Assets\Hospital Laboratory\PostProcessing\Runtime\Components\ColorGradingComponent.cs" />
-    <Compile Include="Assets\Hospital Laboratory\PostProcessing\Runtime\Components\VignetteComponent.cs" />
-    <Compile Include="Assets\Hospital Laboratory\PostProcessing\Runtime\Components\GrainComponent.cs" />
-    <Compile Include="Assets\Hospital Laboratory\Scripts\RandomMovement.cs" />
-    <Compile Include="Assets\Hospital Laboratory\PostProcessing\Runtime\Components\AmbientOcclusionComponent.cs" />
+    <Compile Include="Assets\Prefabs\Hospital Laboratory\PostProcessing\Runtime\Models\MotionBlurModel.cs" />
+    <Compile Include="Assets\Prefabs\Hospital Laboratory\PostProcessing\Runtime\Utils\MaterialFactory.cs" />
+    <Compile Include="Assets\Prefabs\Hospital Laboratory\PostProcessing\Runtime\Components\GrainComponent.cs" />
     <Compile Include="Assets\Scripts\SceneChanges.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\Callout.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\XRPokeFollowAffordanceFill.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\CalloutGazeController.cs" />
-    <Compile Include="Assets\Hospital Laboratory\PostProcessing\Runtime\PostProcessingProfile.cs" />
-    <Compile Include="Assets\Hospital Laboratory\Scripts\RotateMoveCamera.cs" />
-    <Compile Include="Assets\Hospital Laboratory\PostProcessing\Runtime\Components\EyeAdaptationComponent.cs" />
-    <Compile Include="Assets\Hospital Laboratory\PostProcessing\Runtime\Components\FogComponent.cs" />
-    <Compile Include="Assets\Hospital Laboratory\PostProcessing\Runtime\Components\FxaaComponent.cs" />
-    <Compile Include="Assets\Hospital Laboratory\PostProcessing\Runtime\Models\BuiltinDebugViewsModel.cs" />
-    <Compile Include="Assets\Hospital Laboratory\PostProcessing\Runtime\Models\MotionBlurModel.cs" />
-    <Compile Include="Assets\Hospital Laboratory\PostProcessing\Runtime\Components\DitheringComponent.cs" />
-    <Compile Include="Assets\Hospital Laboratory\PostProcessing\Runtime\Models\BloomModel.cs" />
-    <Compile Include="Assets\Hospital Laboratory\PostProcessing\Runtime\Models\ScreenSpaceReflectionModel.cs" />
-    <Compile Include="Assets\Hospital Laboratory\PostProcessing\Runtime\Models\DepthOfFieldModel.cs" />
-    <Compile Include="Assets\Hospital Laboratory\PostProcessing\Runtime\Models\AntialiasingModel.cs" />
-    <Compile Include="Assets\Hospital Laboratory\PostProcessing\Runtime\Models\ChromaticAberrationModel.cs" />
-    <Compile Include="Assets\Hospital Laboratory\PostProcessing\Runtime\Attributes\GetSetAttribute.cs" />
-    <Compile Include="Assets\Hospital Laboratory\PostProcessing\Runtime\Components\BuiltinDebugViewsComponent.cs" />
-    <Compile Include="Assets\Hospital Laboratory\PostProcessing\Runtime\PostProcessingBehaviour.cs" />
-    <Compile Include="Assets\Hospital Laboratory\PostProcessing\Runtime\Models\DitheringModel.cs" />
-    <Compile Include="Assets\Hospital Laboratory\PostProcessing\Utilities\CustomMotionTexture\ExampleWheelController.cs" />
-    <Compile Include="Assets\Hospital Laboratory\PostProcessing\Runtime\PostProcessingContext.cs" />
+    <Compile Include="Assets\Prefabs\Hospital Laboratory\PostProcessing\Runtime\Components\ScreenSpaceReflectionComponent.cs" />
+    <Compile Include="Assets\Prefabs\Hospital Laboratory\Scripts\RandomMovement.cs" />
+    <Compile Include="Assets\Prefabs\Hospital Laboratory\PostProcessing\Runtime\Models\EyeAdaptationModel.cs" />
+    <Compile Include="Assets\Prefabs\Hospital Laboratory\PostProcessing\Runtime\Components\TaaComponent.cs" />
+    <Compile Include="Assets\Prefabs\Hospital Laboratory\PostProcessing\Runtime\Utils\ColorGradingCurve.cs" />
+    <Compile Include="Assets\Prefabs\Hospital Laboratory\PostProcessing\Runtime\Components\FxaaComponent.cs" />
+    <Compile Include="Assets\Prefabs\Hospital Laboratory\PostProcessing\Runtime\Utils\GraphicsUtils.cs" />
+    <Compile Include="Assets\Prefabs\Hospital Laboratory\PostProcessing\Runtime\PostProcessingContext.cs" />
+    <Compile Include="Assets\Prefabs\Hospital Laboratory\PostProcessing\Runtime\Utils\RenderTextureFactory.cs" />
+    <Compile Include="Assets\Prefabs\Hospital Laboratory\PostProcessing\Runtime\Models\FogModel.cs" />
+    <Compile Include="Assets\Prefabs\Hospital Laboratory\PostProcessing\Runtime\Components\MotionBlurComponent.cs" />
+    <Compile Include="Assets\Prefabs\Hospital Laboratory\PostProcessing\Runtime\Models\DitheringModel.cs" />
+    <Compile Include="Assets\Prefabs\Hospital Laboratory\PostProcessing\Runtime\Components\DepthOfFieldComponent.cs" />
+    <Compile Include="Assets\Prefabs\Hospital Laboratory\PostProcessing\Runtime\Models\AntialiasingModel.cs" />
+    <Compile Include="Assets\Prefabs\Hospital Laboratory\PostProcessing\Runtime\Attributes\MinAttribute.cs" />
     <Compile Include="Assets\Scripts\IDSwipeManager.cs" />
-    <Compile Include="Assets\Hospital Laboratory\PostProcessing\Runtime\Components\TaaComponent.cs" />
-    <Compile Include="Assets\Hospital Laboratory\PostProcessing\Runtime\Components\UserLutComponent.cs" />
+    <Compile Include="Assets\Prefabs\Hospital Laboratory\PostProcessing\Runtime\Components\ChromaticAberrationComponent.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\BezierCurve.cs" />
-    <Compile Include="Assets\Hospital Laboratory\PostProcessing\Runtime\Utils\GraphicsUtils.cs" />
+    <Compile Include="Assets\Prefabs\Hospital Laboratory\PostProcessing\Runtime\Attributes\TrackballAttribute.cs" />
+    <Compile Include="Assets\Prefabs\Hospital Laboratory\PostProcessing\Runtime\Models\UserLutModel.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\LaunchProjectile.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\StepManager.cs" />
-    <Compile Include="Assets\Hospital Laboratory\PostProcessing\Runtime\Utils\ColorGradingCurve.cs" />
-    <Compile Include="Assets\Hospital Laboratory\PostProcessing\Runtime\Attributes\TrackballAttribute.cs" />
+    <Compile Include="Assets\Prefabs\Hospital Laboratory\PostProcessing\Runtime\Components\DitheringComponent.cs" />
+    <Compile Include="Assets\Prefabs\Hospital Laboratory\PostProcessing\Runtime\Components\BloomComponent.cs" />
+    <Compile Include="Assets\Prefabs\Hospital Laboratory\PostProcessing\Runtime\PostProcessingModel.cs" />
+    <Compile Include="Assets\Prefabs\Hospital Laboratory\PostProcessing\Runtime\Models\GrainModel.cs" />
     <Compile Include="Assets\Imports\VR Keyboard XRI\Scripts\Key.cs" />
-    <Compile Include="Assets\Hospital Laboratory\PostProcessing\Runtime\Components\ChromaticAberrationComponent.cs" />
-    <Compile Include="Assets\Hospital Laboratory\PostProcessing\Runtime\PostProcessingComponent.cs" />
-    <Compile Include="Assets\Hospital Laboratory\PostProcessing\Runtime\Utils\RenderTextureFactory.cs" />
-    <Compile Include="Assets\Hospital Laboratory\PostProcessing\Runtime\Components\ScreenSpaceReflectionComponent.cs" />
+    <Compile Include="Assets\Prefabs\Hospital Laboratory\PostProcessing\Runtime\Components\ColorGradingComponent.cs" />
+    <Compile Include="Assets\Prefabs\Hospital Laboratory\PostProcessing\Runtime\PostProcessingBehaviour.cs" />
     <Compile Include="Assets\Imports\VR Keyboard XRI\Scripts\KeyboardManager.cs" />
-    <Compile Include="Assets\Hospital Laboratory\PostProcessing\Runtime\Components\BloomComponent.cs" />
-    <Compile Include="Assets\Hospital Laboratory\PostProcessing\Runtime\PostProcessingModel.cs" />
-    <Compile Include="Assets\Hospital Laboratory\PostProcessing\Runtime\Models\EyeAdaptationModel.cs" />
+    <Compile Include="Assets\Prefabs\Hospital Laboratory\PostProcessing\Runtime\Components\AmbientOcclusionComponent.cs" />
+    <Compile Include="Assets\Prefabs\Hospital Laboratory\PostProcessing\Runtime\Components\BuiltinDebugViewsComponent.cs" />
+    <Compile Include="Assets\Prefabs\Hospital Laboratory\Scripts\RotateMoveCamera.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\AnchorVisuals.cs" />
     <Compile Include="Assets\Scripts\BadgeMachine.cs" />
-    <Compile Include="Assets\Hospital Laboratory\PostProcessing\Runtime\Components\DepthOfFieldComponent.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
-    <None Include="Assets\Hospital Laboratory\PostProcessing\Resources\Shaders\ScreenSpaceReflection.shader" />
+    <None Include="Assets\Prefabs\Hospital Laboratory\PostProcessing\Resources\Shaders\ScreenSpaceReflection.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\VRTemplateAssets\Shaders\FauxBlurURP.shader" />
-    <None Include="Assets\Hospital Laboratory\PostProcessing\Resources\Shaders\GrainGen.shader" />
-    <None Include="Assets\Hospital Laboratory\PostProcessing\Editor Resources\Monitors\HistogramCompute.compute" />
-    <None Include="Assets\Hospital Laboratory\PostProcessing\Resources\Shaders\FXAA3.cginc" />
-    <None Include="Assets\Hospital Laboratory\PostProcessing\Resources\Shaders\EyeAdaptation.shader" />
-    <None Include="Assets\Hospital Laboratory\PostProcessing\Utilities\CustomMotionTexture\Shaders\CustomMotionVectorTexture.shader" />
-    <None Include="Assets\Hospital Laboratory\PostProcessing\Editor Resources\UI\CurveBackground.shader" />
+    <None Include="Assets\Prefabs\Hospital Laboratory\PostProcessing\Resources\Shaders\GrainGen.shader" />
+    <None Include="Assets\Prefabs\Hospital Laboratory\PostProcessing\Editor Resources\Monitors\HistogramCompute.compute" />
+    <None Include="Assets\Prefabs\Hospital Laboratory\PostProcessing\Resources\Shaders\FXAA3.cginc" />
+    <None Include="Assets\Prefabs\Hospital Laboratory\PostProcessing\Resources\Shaders\EyeAdaptation.shader" />
+    <None Include="Assets\Prefabs\Hospital Laboratory\PostProcessing\Utilities\CustomMotionTexture\Shaders\CustomMotionVectorTexture.shader" />
+    <None Include="Assets\Prefabs\Hospital Laboratory\PostProcessing\Editor Resources\UI\CurveBackground.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
-    <None Include="Assets\Hospital Laboratory\PostProcessing\Resources\Shaders\BuiltinDebugViews.shader" />
-    <None Include="Assets\Hospital Laboratory\PostProcessing\Resources\Shaders\EyeAdaptation.cginc" />
-    <None Include="Assets\Hospital Laboratory\PostProcessing\Resources\Shaders\LutGen.shader" />
-    <None Include="Assets\Hospital Laboratory\PostProcessing\Resources\Shaders\EyeHistogram.compute" />
+    <None Include="Assets\Prefabs\Hospital Laboratory\PostProcessing\Resources\Shaders\BuiltinDebugViews.shader" />
+    <None Include="Assets\Prefabs\Hospital Laboratory\PostProcessing\Resources\Shaders\EyeAdaptation.cginc" />
+    <None Include="Assets\Prefabs\Hospital Laboratory\PostProcessing\Resources\Shaders\LutGen.shader" />
+    <None Include="Assets\Prefabs\Hospital Laboratory\PostProcessing\Resources\Shaders\EyeHistogram.compute" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
-    <None Include="Assets\Hospital Laboratory\PostProcessing\Resources\Shaders\TAA.cginc" />
-    <None Include="Assets\Hospital Laboratory\PostProcessing\Resources\Shaders\AmbientOcclusion.cginc" />
-    <None Include="Assets\Hospital Laboratory\PostProcessing\Editor Resources\Monitors\VectorscopeCompute.compute" />
+    <None Include="Assets\Prefabs\Hospital Laboratory\PostProcessing\Resources\Shaders\TAA.cginc" />
+    <None Include="Assets\Prefabs\Hospital Laboratory\PostProcessing\Resources\Shaders\AmbientOcclusion.cginc" />
+    <None Include="Assets\Prefabs\Hospital Laboratory\PostProcessing\Editor Resources\Monitors\VectorscopeCompute.compute" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
-    <None Include="Assets\Hospital Laboratory\Readme.txt" />
-    <None Include="Assets\Hospital Laboratory\PostProcessing\Resources\Shaders\ColorGrading.cginc" />
-    <None Include="Assets\Hospital Laboratory\PostProcessing\Editor Resources\Monitors\HistogramRender.shader" />
-    <None Include="Assets\Hospital Laboratory\PostProcessing\Resources\Shaders\UberSecondPass.cginc" />
+    <None Include="Assets\Prefabs\Hospital Laboratory\Readme.txt" />
+    <None Include="Assets\Prefabs\Hospital Laboratory\PostProcessing\Resources\Shaders\ColorGrading.cginc" />
+    <None Include="Assets\Prefabs\Hospital Laboratory\PostProcessing\Editor Resources\Monitors\HistogramRender.shader" />
+    <None Include="Assets\Prefabs\Hospital Laboratory\PostProcessing\Resources\Shaders\UberSecondPass.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
     <None Include="Assets\VRTemplateAssets\Shaders\Grid.shader" />
     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
-    <None Include="Assets\Hospital Laboratory\PostProcessing\Resources\Bluenoise64\LICENSE.txt" />
+    <None Include="Assets\Prefabs\Hospital Laboratory\PostProcessing\Resources\Bluenoise64\LICENSE.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
-    <None Include="Assets\Hospital Laboratory\PostProcessing\Resources\Shaders\ACES.cginc" />
+    <None Include="Assets\Prefabs\Hospital Laboratory\PostProcessing\Resources\Shaders\ACES.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
-    <None Include="Assets\Hospital Laboratory\PostProcessing\Resources\Shaders\MotionBlur.cginc" />
+    <None Include="Assets\Prefabs\Hospital Laboratory\PostProcessing\Resources\Shaders\MotionBlur.cginc" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
-    <None Include="Assets\Hospital Laboratory\PostProcessing\Resources\Shaders\AmbientOcclusion.shader" />
-    <None Include="Assets\Hospital Laboratory\PostProcessing\Resources\Shaders\FXAA.shader" />
+    <None Include="Assets\Prefabs\Hospital Laboratory\PostProcessing\Resources\Shaders\AmbientOcclusion.shader" />
+    <None Include="Assets\Prefabs\Hospital Laboratory\PostProcessing\Resources\Shaders\FXAA.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
-    <None Include="Assets\Hospital Laboratory\PostProcessing\Resources\Shaders\ScreenSpaceRaytrace.cginc" />
+    <None Include="Assets\Prefabs\Hospital Laboratory\PostProcessing\Resources\Shaders\ScreenSpaceRaytrace.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
-    <None Include="Assets\Hospital Laboratory\PostProcessing\Resources\Shaders\Tonemapping.cginc" />
-    <None Include="Assets\Hospital Laboratory\PostProcessing\Resources\Shaders\Fog.shader" />
-    <None Include="Assets\Hospital Laboratory\PostProcessing\Editor Resources\Monitors\ParadeRender.shader" />
-    <None Include="Assets\Hospital Laboratory\PostProcessing\Resources\Shaders\MotionBlur.shader" />
-    <None Include="Assets\Hospital Laboratory\PostProcessing\Resources\Shaders\DiskKernels.cginc" />
+    <None Include="Assets\Prefabs\Hospital Laboratory\PostProcessing\Resources\Shaders\Tonemapping.cginc" />
+    <None Include="Assets\Prefabs\Hospital Laboratory\PostProcessing\Resources\Shaders\Fog.shader" />
+    <None Include="Assets\Prefabs\Hospital Laboratory\PostProcessing\Editor Resources\Monitors\ParadeRender.shader" />
+    <None Include="Assets\Prefabs\Hospital Laboratory\PostProcessing\Resources\Shaders\MotionBlur.shader" />
+    <None Include="Assets\Prefabs\Hospital Laboratory\PostProcessing\Resources\Shaders\DiskKernels.cginc" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
-    <None Include="Assets\Hospital Laboratory\PostProcessing\Resources\Bluenoise64\COPYING.txt" />
-    <None Include="Assets\Hospital Laboratory\PostProcessing\Editor Resources\UI\Trackball.shader" />
-    <None Include="Assets\Hospital Laboratory\PostProcessing\Editor Resources\Monitors\WaveformRender.shader" />
-    <None Include="Assets\Hospital Laboratory\PostProcessing\Resources\Shaders\Common.cginc" />
-    <None Include="Assets\Hospital Laboratory\PostProcessing\Editor Resources\Monitors\VectorscopeRender.shader" />
-    <None Include="Assets\Hospital Laboratory\PostProcessing\Resources\Shaders\Bloom.shader" />
-    <None Include="Assets\Hospital Laboratory\PostProcessing\Resources\Shaders\Uber.shader" />
-    <None Include="Assets\Hospital Laboratory\PostProcessing\Resources\Shaders\DepthOfField.shader" />
+    <None Include="Assets\Prefabs\Hospital Laboratory\PostProcessing\Resources\Bluenoise64\COPYING.txt" />
+    <None Include="Assets\Prefabs\Hospital Laboratory\PostProcessing\Editor Resources\UI\Trackball.shader" />
+    <None Include="Assets\Prefabs\Hospital Laboratory\PostProcessing\Editor Resources\Monitors\WaveformRender.shader" />
+    <None Include="Assets\Prefabs\Hospital Laboratory\PostProcessing\Resources\Shaders\Common.cginc" />
+    <None Include="Assets\Prefabs\Hospital Laboratory\PostProcessing\Editor Resources\Monitors\VectorscopeRender.shader" />
+    <None Include="Assets\Prefabs\Hospital Laboratory\PostProcessing\Resources\Shaders\Bloom.shader" />
+    <None Include="Assets\Prefabs\Hospital Laboratory\PostProcessing\Resources\Shaders\Uber.shader" />
+    <None Include="Assets\Prefabs\Hospital Laboratory\PostProcessing\Resources\Shaders\DepthOfField.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
-    <None Include="Assets\Hospital Laboratory\PostProcessing\Resources\Shaders\TAA.shader" />
-    <None Include="Assets\Hospital Laboratory\PostProcessing\Resources\Shaders\Blit.shader" />
-    <None Include="Assets\Hospital Laboratory\PostProcessing\Resources\Shaders\Bloom.cginc" />
-    <None Include="Assets\Hospital Laboratory\PostProcessing\Editor Resources\Monitors\WaveformCompute.compute" />
-    <None Include="Assets\Hospital Laboratory\PostProcessing\Resources\Shaders\DepthOfField.cginc" />
+    <None Include="Assets\Prefabs\Hospital Laboratory\PostProcessing\Resources\Shaders\TAA.shader" />
+    <None Include="Assets\Prefabs\Hospital Laboratory\PostProcessing\Resources\Shaders\Blit.shader" />
+    <None Include="Assets\Prefabs\Hospital Laboratory\PostProcessing\Resources\Shaders\Bloom.cginc" />
+    <None Include="Assets\Prefabs\Hospital Laboratory\PostProcessing\Editor Resources\Monitors\WaveformCompute.compute" />
+    <None Include="Assets\Prefabs\Hospital Laboratory\PostProcessing\Resources\Shaders\DepthOfField.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
     <None Include="Assets\VRTemplateAssets\Shaders\TexturedFresnelStandard.shader" />
@@ -538,6 +538,10 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.9.4\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Collections.LowLevel.ILSupport">
+      <HintPath>Library\PackageCache\com.unity.collections@1.2.4\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Android.Types">
@@ -1040,6 +1044,10 @@
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.49f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="glTFast.dots">
+      <HintPath>Library\ScriptAssemblies\glTFast.dots.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.XR.OpenXR.Features.MetaQuestSupport.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.XR.OpenXR.Features.MetaQuestSupport.Editor.dll</HintPath>
       <Private>False</Private>
@@ -1058,6 +1066,10 @@
     </Reference>
     <Reference Include="Unity.Burst.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="glTFast.Editor">
+      <HintPath>Library\ScriptAssemblies\glTFast.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.XR.Hands">
@@ -1122,6 +1134,10 @@
     </Reference>
     <Reference Include="Unity.XR.Management.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.XR.Management.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Collections">
+      <HintPath>Library\ScriptAssemblies\Unity.Collections.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="PPv2URPConverters">
@@ -1282,6 +1298,10 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.State.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="glTFast">
+      <HintPath>Library\ScriptAssemblies\glTFast.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Mathematics">
