@@ -13,4 +13,20 @@ public class SceneChanges : MonoBehaviour
     {
         SceneManager.LoadScene("CleanRoomScene");
     }
+    public void LoadCleaningSolventsScene()
+    {
+        //SceneManager.LoadScene("CleanRoomScene");
+    }
+    public void LoadDepositionScene()
+    {
+        //SceneManager.LoadScene("CleanRoomScene");
+    }
+    public void LoadPhotolithographyScene()
+    {
+        //SceneManager.LoadScene("CleanRoomScene");
+    }
+    public void LoadEtchingScene()
+    {
+        //SceneManager.LoadScene("CleanRoomScene");
+    }
 }
